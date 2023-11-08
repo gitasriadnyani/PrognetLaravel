@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+body { 
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-uppercase {
+    letter-spacing: 2px;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+#Profile p,
+#Profile li {
+    font-size: 23px;
+}
+
+.card {
+    margin-bottom: 20px; /* Menambahkan jarak vertikal antara kartu-kartu */
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 20px;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #343a40;
+    }
+
+    .navbar-toggler-icon:hover {
+        background-color: #007bff;
+    }
+
+}
